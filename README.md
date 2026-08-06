@@ -4,7 +4,9 @@ thì tác giả đã sử dụng các hàm toán học để giải TRỰC TIẾ
 
 ## Luật Mờ
 Trong điều khiển mờ truyền thống:
+
     R1: IF $X_1$ is $A_{1,1}$ AND $X_2$ is $A_{2,1}$ THEN $\gamma$ is $B_1$ OR
+    
     R2: IF $X_1$ is $A_{1,2}$ AND $X_2$ is $A_{2,2}$ THEN $\gamma$ is $B_2$
 
 Trong bài, luật mờ đã được nhúng chìm vào tích Kronecker. Các hàm zeta_p và zeta_a chính là bước tính độ thỏa mãn của TẤT CẢ các luật IF...THEN cùng một lúc:
