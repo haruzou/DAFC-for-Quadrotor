@@ -12,13 +12,12 @@ Trong bài, luật mờ đã được nhúng chìm vào tích Kronecker. Các h�
 
 Vòng lặp 6 x 6 = 36 này tương đương với việc khai báo 36 luật Mờ IF-THEN.
 
-## Giải mờ
-FIS trong bài sử dụng mô hình mờ Takagi-Sugeno (Zero-order TS Fuzzy System) hoặc Singleton Defuzzification. Lượng đầu ra tín hiệu điều khiển được tính đơn giản bằng tích vô hướng giữa trọng số $\Theta$ và độ thỏa mãn luật $\zeta$:
-
-    ux = Theta_x.' * zeta_x;
-
 ## THEN
 Phần THEN tronmg bài không cố đinh mà được thay đổi tự động. Nó được cập nhật thời gian thực bằng thuật toán thích nghi Adaptive dựa trên sai số điều khiển:
 
     Theta_x_dot = gamma_p * (ex*pnp(1) + ex_dot*pnp(2)) * zeta_x;
 
+## Giải mờ
+FIS trong bài sử dụng mô hình mờ Takagi-Sugeno (Zero-order TS Fuzzy System) hoặc Singleton Defuzzification. Lượng đầu ra tín hiệu điều khiển được tính đơn giản bằng tích vô hướng giữa trọng số $\Theta$ và độ thỏa mãn luật $\zeta$:
+
+    ux = Theta_x.' * zeta_x;
