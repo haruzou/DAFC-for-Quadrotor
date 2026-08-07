@@ -173,13 +173,13 @@ function deq = f(t, X)
     phi_d_prev = X(13);
     theta_d_prev = X(14);
 
-    Theta_x     = X(15:50);
-    Theta_y     = X(51:86);
-    Theta_z     = X(87:122);
+    Theta_x = X(15:50);
+    Theta_y = X(51:86);
+    Theta_z = X(87:122);
 
-    Theta_phi   = X(123:152);
+    Theta_phi = X(123:152);
     Theta_theta = X(153:182);
-    Theta_psi   = X(183:212);
+    Theta_psi = X(183:212);
 
     % External Disturbances
     dx = 0.3*sin(t);
@@ -223,7 +223,7 @@ function deq = f(t, X)
 
     theta_d = atan((ux*cos(psi_d) + uy*sin(psi_d)) / (uz + g));
 
-    phi_d_dot   = (phi_d  - phi_d_prev)/dt;
+    phi_d_dot = (phi_d  - phi_d_prev)/dt;
     theta_d_dot = (theta_d - theta_d_prev)/dt;
     
     
@@ -302,7 +302,6 @@ function deq = f(t, X)
 
 end
 end
-
 
 function zeta_p = zeta_p(x, x_dot, c_x, w_x, c_x_dot, w_x_dot)
 
