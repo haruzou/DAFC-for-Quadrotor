@@ -32,4 +32,5 @@ FIS trong bài sử dụng mô hình mờ Takagi-Sugeno (Zero-order TS Fuzzy Sys
 
 <img width="1076" height="643" alt="image" src="https://github.com/user-attachments/assets/1658fa1f-23a2-4c23-a1f6-01d6f9bcadcf" />
 
-<img width="1076" height="645" alt="image" src="https://github.com/user-attachments/assets/caf4407f-6b77-4b29-b5de-55781c866429" />
+<img width="1076" height="641" alt="image" src="https://github.com/user-attachments/assets/cc2518c3-9dfc-4077-9f61-692c707046f9" />
+
