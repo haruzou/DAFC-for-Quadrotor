@@ -21,5 +21,15 @@ Phần THEN tronmg bài không cố đinh mà được thay đổi tự động.
 FIS trong bài sử dụng mô hình mờ Takagi-Sugeno (Zero-order TS Fuzzy System) hoặc Singleton Defuzzification. Lượng đầu ra tín hiệu điều khiển được tính đơn giản bằng tích vô hướng giữa trọng số $\Theta$ và độ thỏa mãn luật $\zeta$:
 
     ux = Theta_x.' * zeta_x;
-## Kết quả mô phỏng ( trường hợp không có nhiễu)
+## Kết quả mô phỏng ( trường hợp có nhiễu)
 ### Simulink
+<img width="1553" height="746" alt="image" src="https://github.com/user-attachments/assets/dd0fe653-4e3a-4f86-a9b4-cf2906ca77ef" />
+
+<img width="1076" height="632" alt="image" src="https://github.com/user-attachments/assets/7b75f4fe-fa6e-4f9b-97d3-d838029c5590" />
+
+### MATLAB
+<img width="1076" height="645" alt="image" src="https://github.com/user-attachments/assets/dda62da1-21fc-443e-9442-03ccb5d7b0d9" />\
+
+<img width="1076" height="643" alt="image" src="https://github.com/user-attachments/assets/1658fa1f-23a2-4c23-a1f6-01d6f9bcadcf" />
+
+<img width="1076" height="645" alt="image" src="https://github.com/user-attachments/assets/caf4407f-6b77-4b29-b5de-55781c866429" />
