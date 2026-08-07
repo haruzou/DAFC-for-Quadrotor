@@ -140,14 +140,15 @@ ylabel('z (m)'); xlabel('Time (s)');  legend('Actual','Desired');
 figure('Name','Attitude tracking','Color','w');
 subplot(3,1,1);
 plot(t, phi, 'b', t, phi_d_prev, 'r--', 'LineWidth', 1.5); grid on;
-ylabel('\phi (rad)'); legend('\phi_d','\phi');
+ylabel('\phi (rad)'); legend('\phi','\phi_d');
 title('Attitude tracking');
 subplot(3,1,2);
 plot(t, theta, 'b', t, theta_d_prev, 'r--', 'LineWidth', 1.5); grid on;
-ylabel('\theta (rad)'); legend('\theta_d','\theta');
+ylabel('\theta (rad)'); legend('\theta','\theta_d');
 subplot(3,1,3);
 plot(t, psi, 'b', t, psi_d, 'r--', 'LineWidth', 1.5); grid on;
 ylabel('\psi (rad)'); xlabel('Time (s)'); legend('\psi','\psi_d');
+
 %% =========================================================================
 %% CONTROL FUNCTION
 %% =========================================================================
